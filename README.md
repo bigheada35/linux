@@ -15,7 +15,7 @@ linux
   Solid and proven peripheral drivers
   Large developer community
   Security updates
-  Maintaining multiple stable kernels
+  Maintaining multiple stable kernels   <--- ***
 
  Linux4SAM 웹사이트 제공 내용 : 
     제공하는 리눅스안에 포함되는 컴포넌드 sw를 위한 GitHub repository 
