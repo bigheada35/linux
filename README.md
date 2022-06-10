@@ -4,16 +4,24 @@ linux
 
 ### Linux4SAM.org
 ```
-### LINUX4SAM (LINUX SOFTWARE AND TOOLS)
-Device tree support
-Yocto and Buildroot build environments
-AT91 Bootstrap and U-boot bootloaders
-OpenWrt support
-Solid and proven peripheral drivers
-Large developer community
-Security updates
-Maintaining multiple stable kernels
+출처 : https://www.microchip.com/en-us/development-tool/Linux4SAM.org
 
+(LINUX SOFTWARE AND TOOLS)
+제공 : 
+  Device tree support
+  Yocto and Buildroot build environments
+  AT91 Bootstrap and U-boot bootloaders   <--- **
+  OpenWrt support
+  Solid and proven peripheral drivers
+  Large developer community
+  Security updates
+  Maintaining multiple stable kernels
+
+ Linux4SAM 웹사이트 제공 내용 : 
+    제공하는 리눅스안에 포함되는 컴포넌드 sw를 위한 GitHub repository 
+    U-Boot, 
+    Yocto Project,
+    (모든 MPU를 제공하는 mainline) Buildroot communities 
 ```
 
 ### Yocto
