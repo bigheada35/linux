@@ -17,7 +17,7 @@ Maintaining multiple stable kernels
 ```
 
 ### Yocto
-``
+```
   출처 : https://selfish-developer.com/entry/Yocto%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
   Yocto :  환경세팅시, x86인지 확인해야 하고, 
       어떤 os사용하는지 확인하고,
