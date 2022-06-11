@@ -63,8 +63,14 @@ linux
           bootloader,  kernel 의  소스코드를 모두 가져옴,
           (빌드에 필요한) 크로스 컴파일러, 라이브러리도 다운로드해서 받아옴.
              
-```      
-      
+```  
+
+#### windows PowerShell
+```
+참고 : 
+  https://ddochea.tistory.com/179
+  https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8C%EC%85%B8
+```
        
        
   
