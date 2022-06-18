@@ -71,6 +71,28 @@ linux
   https://ddochea.tistory.com/179
   https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8C%EC%85%B8
 ```
-       
+     
+#CentOS
+https://www.centos.org/download/
+#### Rufus
+https://rufus.ie/
+#### 네트워크설정파일
+/etc/sysconfig/network-scripts
+:
+#BOOTPROTO="dhcp"
+:
++
+BOOTPROTO="none"
+IPADDR="192.168.0.123"
+NETMASK="255.255.255.0"
+GATEWAY="192.168.0.1"
+DNS1="168.126.63.1"
+DNS2="168.126.63.2"
+#### 네트워크 재시작
+systemctl restart network
+-- CentOS8 인경우
+systemctl restart NetworkManager.service
+
+
        
   
