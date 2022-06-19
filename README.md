@@ -72,7 +72,8 @@ linux
   https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8C%EC%85%B8
 ```
      
-#CentOS
+# CentOS
+```
 https://www.centos.org/download/
 #### Rufus
 https://rufus.ie/
@@ -92,7 +93,7 @@ DNS2="168.126.63.2"
 systemctl restart network
 -- CentOS8 인경우
 systemctl restart NetworkManager.service
-
+```
 
        
   
