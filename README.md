@@ -133,11 +133,13 @@ make menuconfig
 df -h
 
 커널 및 모듈을 컴파일,  컴파일 프로세스는 /boot 에 파일을 저 하고 grub.conf 파일에 새 커널 항목을 만듬.
-make bzImage
+make bzImage      --> arch/x86/boot/bzImage  만들어짐
 make modules
 make
 make install
 make modules_install
+
+
 ```
 
 
