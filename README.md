@@ -132,7 +132,7 @@ make menuconfig
 파일시스템 여유공간확인 (25GB 이상 필요)
 df -h
 
-커널 및 모듈을 컴파일,  컴파일 프로세스는 /boot 에 파일을 저자 하고 grub.conf 파일에 새 커널 항목을 만듬.
+커널 및 모듈을 컴파일,  컴파일 프로세스는 /boot 에 파일을 저 하고 grub.conf 파일에 새 커널 항목을 만듬.
 make bzImage
 make modules
 make
