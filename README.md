@@ -78,6 +78,15 @@ https://www.centos.org/download/
 ### Rufus
 https://rufus.ie/
 
+### 네트워크설정
+```
+nmcli d
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+유동ip(hdcp)을 사용하는 경우
+  ONBOOT=no -> ONBOOT=yes
+  (BOOTPROTO=hdcp 기본값 그대로 사용)
+```
+
 ### 네트워크설정파일
 ```
 /etc/sysconfig/network-scripts
