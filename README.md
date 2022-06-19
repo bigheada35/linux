@@ -79,6 +79,7 @@ https://www.centos.org/download/
 https://rufus.ie/
 
 ### 네트워크설정파일
+```
 /etc/sysconfig/network-scripts
 :
 #BOOTPROTO="dhcp"
@@ -90,11 +91,14 @@ NETMASK="255.255.255.0"
 GATEWAY="192.168.0.1"
 DNS1="168.126.63.1"
 DNS2="168.126.63.2"
+```
 
 #### 네트워크 재시작
+```
 systemctl restart network
 -- CentOS8 인경우
 systemctl restart NetworkManager.service
+```
 
 
        
