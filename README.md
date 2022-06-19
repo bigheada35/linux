@@ -82,19 +82,15 @@ https://rufus.ie/
 ```
 nmcli d
 vi /etc/sysconfig/network-scripts/ifcfg-eth0
+
 유동ip(hdcp)을 사용하는 경우
   ONBOOT=no -> ONBOOT=yes
   (BOOTPROTO=hdcp 기본값 그대로 사용)
-```
 
-### 네트워크설정파일
-```
-/etc/sysconfig/network-scripts
-:
-#BOOTPROTO="dhcp"
-:
-+
-BOOTPROTO="none"
+고정ip를 사용하는 경우
+BOOTPROTO="dhcp"  -> BOOTPROTO=none 또는 BOOTPROTO=static 
+
+추가
 IPADDR="192.168.0.123"
 NETMASK="255.255.255.0"
 GATEWAY="192.168.0.1"
