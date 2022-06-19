@@ -104,6 +104,41 @@ systemctl restart network
 -- CentOS8 인경우
 systemctl restart NetworkManager.service
 ```
+### wget 설치
+```
+yum install wget
+```
+### 커널컴파일
+```
+커널 컴파일을 위한 필수 패키지 설치
+yum update
+yum install -y ncurses-devel make gcc bc bison flex elfutils-libelf-devel openssl-devel grub2
+
+커널을 다운로드
+cd /usr/src/
+wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.11.tar.xz
+
+아카이브된 파일 추출
+tar -xvf linux-4.17.11.tar.xz
+cd linux-4.17.11
+
+/boot 안에 있는 실행중인 커널 구성을 linux-4.17.11로 복사하기
+cp -v /boot/config-3.10.0-1160.66.1.el7.x86_64 /usr/src/linux-4.17.11/.config
+
+리눅스 커널을 구성
+make menuconfig
+(save를 한번 해주면 .config로 저장하고, 기존의 파일은 .config_old로 저장한다.)
+
+파일시스템 여유공간확인 (25GB 이상 필요)
+df -h
+
+커널 및 모듈을 컴파일,  컴파일 프로세스는 /boot 에 파일을 저자 하고 grub.conf 파일에 새 커널 항목을 만듬.
+make bzImage
+make modules
+make
+make install
+make modules_install
+```
 
 
        
