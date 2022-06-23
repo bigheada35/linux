@@ -141,7 +141,11 @@ make modules_install
 
 
 ```
-
+## 커널소스 찾기
+```
+http://lxr.linux.no/
+identifier search, freetext search,
+```
 
        
   
