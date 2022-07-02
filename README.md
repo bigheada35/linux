@@ -164,6 +164,11 @@ https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building
 
 Working with QNX BSPs
 https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/bsp/bsp_about.html
+
+Building a BSP
+https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/bsp/bsp_build.html
+
+
 ```
        
   
