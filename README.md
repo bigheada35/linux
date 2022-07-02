@@ -146,6 +146,12 @@ make modules_install
 http://lxr.linux.no/
 identifier search, freetext search,
 ```
-
+#QNX
+```
+QNX SDP
+7.1
+QNX Neutrino RTOS
+https://www.qnx.com/developers/docs/7.1
+```
        
   
