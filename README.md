@@ -146,7 +146,7 @@ make modules_install
 http://lxr.linux.no/
 identifier search, freetext search,
 ```
-#QNX
+# QNX
 ```
 QNX SDP
 7.1
