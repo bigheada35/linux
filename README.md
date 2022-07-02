@@ -152,6 +152,14 @@ QNX SDP
 7.1
 QNX Neutrino RTOS
 https://www.qnx.com/developers/docs/7.1
+
+QNX Board Support Packages (BSPs) :
+https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/intro/intro_about.html
+
+The boot process
+https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/intro/intro_startup_sequence.html
+
+
 ```
        
   
