@@ -159,7 +159,11 @@ https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building
 The boot process
 https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/intro/intro_startup_sequence.html
 
+OS Image Buildfiles
+https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/buildfiles/buildfile.html
 
+Working with QNX BSPs
+https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.neutrino.building/topic/bsp/bsp_about.html
 ```
        
   
